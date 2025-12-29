@@ -1,0 +1,117 @@
+<! DOCTYPE html>
+<html>
+<head>
+          <title>Registration Form</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <style>
+                    body{
+                              background-color: #f4f6f9;
+                    }
+                    h2{
+                           color: darkred;
+                           text-align:center;
+                           font-family: "Georgia", serif; 
+                     } 
+                     h4{
+                           color: darkred;
+                           text-align:center;
+                           font-family: "Georgia", serif; 
+                      }
+                      .tbl{
+                             background-color: white;
+                            border: 5px solid black;
+                            border-spacing: 2px;                                 
+                       }
+                       .tbl th,
+                       .tbl td {
+                                   background-color: #f8d7da;
+                                  padding: 5px;
+                        }
+        .buttom{  
+                     background-color:lavender;
+                     margin:10px; 
+                     padding:10px; 
+                     color:black;
+                     text-align: right;
+                     border:0.5px solid;
+        }
+        .buttons{  
+                     background-color:lavender;  
+                     padding:10px; 
+                     color:black;
+                     border:0.5px solid;
+        }
+        button:hover{
+                             background-color:lightred;
+        }
+           </style>
+</head>
+<body>
+           <h2><u>TechFest Registration Form</u></h2>
+           <h4>Please fill the form below to Register for TechFest.</h4>
+           <div class="buttom">
+           <nav>
+                     <a href="Practical14.1.html">Home</a> |
+                     <a href="Practical14.2.html">Schedule</a> |
+                     <a href="Practical14.3.html">Speakers</a> |
+                     <a href="Practical14.4.html">Register</a>
+           </nav>
+           </div>
+           <form method="get" action="file:///C:/Users/Admin/Desktop/My%20HTML/Practical12.1.html ">
+                                                                                                                              
+           <center><table class="tbl">
+            <tr>
+                 <th><label for="fname">Name:</label></th>
+                 <td><input type="text" name="fname" placeholder="Enter Your Name."></td>
+            </tr>
+             <tr>
+                 <th><label for="mail">Email:</label></th>
+                 <td><input type="email" name="mail" placeholder="abc@xyz.com"></td>
+            </tr>
+            <tr>
+                 <th><label for="phone">Phn. No.:</label></th>
+                 <td><input type="phone" name="phone" placeholder="Enter Your Phone Number."></td>
+            </tr>
+            <tr>
+                 <th><label for="gender">Gender:</lable></th>
+                 <td><input type="radio" name="gender">Male
+                        <input type="radio" name="gender">Female</td>
+            </tr>
+            <tr>
+                 <th><label for="uni">College Name</label></th>
+                 <td><input type="text" name="uni" placeholder="xyz college"></td>
+            </tr>
+            <tr>
+                 <th><label for="year">Year of Study</label></th>
+                 <td><input type="radio" name="year">1st Year
+                        <input type="radio" name="year">2nd Year
+                        <input type="radio" name="year">3rd Year
+                        <input type="radio" name="year">4th Year</td>
+            </tr>
+            <tr>
+                 <th><label for="reason">Why do you want to Attend TechFest?</label></th>
+                 <td><textarea name="reason"></textarea></td>
+            </tr>
+            <tr>
+                 <td colspan="2"><center>
+                                            <button type="submit">Apply</button> 
+                                            <button type="reset">Reset</button>
+                 </center></td>
+            </tr>
+            </table>
+           </form>
+    <br>
+
+    <div class="buttons">
+    <footer>
+                 Organized by the Dept. of Computer Science
+                 <br>
+                 Contact us on:
+                 <br>       
+                 Instagram:@techfest_<br>
+                 Phn no.: 1234567890               
+    </footer>
+    </div>
+
+</body>
+</html>
